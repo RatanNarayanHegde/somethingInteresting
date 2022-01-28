@@ -1,2 +1,2 @@
 # somethingInteresting
-A website which bring you some interesting videos from the belly of youtube.
+A website which brings you some interesting videos from the belly of youtube.
