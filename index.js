@@ -9,6 +9,12 @@ const videos = [
     },
     {
         "url": "https://www.youtube.com/watch?v=oGVhOWqsBWM",
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=SSdsncLXLYs",
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=EFkyxzJtiv4",
     }
 ]
 
