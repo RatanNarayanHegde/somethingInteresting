@@ -35,12 +35,16 @@ const getImageSrcFromURL = (url) => {
 const appendVideoToDiv = () => {
   const div = document.querySelector("#content");
 
+  const anchor = document.createElement("a");
   const img = document.createElement("img");
   const idx = Math.floor(Math.random() * videos.length);
   img.src = getImageSrcFromURL(videos[idx].url);
 
+  anchor.href = videos[idx].url;
+  anchor.appendChild(img);
+
   while (div.firstChild) div.removeChild(div.firstChild);
-  div.appendChild(img);
+  div.appendChild(anchor);
 };
 
 const changeVideo = () => {
