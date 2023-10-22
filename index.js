@@ -18,6 +18,9 @@ const videos = [
   },
   {
     url: "https://www.youtube.com/watch?v=HekZLSZ2mpU",
+  },
+  {
+    url: "https://www.youtube.com/watch?v=ugIuHWc6Nuc",
   }
 ];
 
