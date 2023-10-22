@@ -16,6 +16,9 @@ const videos = [
   {
     url: "https://www.youtube.com/watch?v=EFkyxzJtiv4",
   },
+  {
+    url: "https://www.youtube.com/watch?v=HekZLSZ2mpU",
+  }
 ];
 
 const getVideoIdFromURL = (url) => {
